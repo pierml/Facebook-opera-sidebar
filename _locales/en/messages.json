@@ -1,0 +1,14 @@
+{
+	"extDescription": {
+	   "description": "Description of extension functionality.",
+	   "message": "Access to Facebook."
+	},
+	"extName": {
+	   "description": "Extension name.",
+	   "message": "Facebook Sidebar"
+	},
+	"extPanelURL": {
+	   "description": "Extension URL.",
+	   "message": "https://mobile.facebook.com/"
+	}
+ }
