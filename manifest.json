@@ -2,23 +2,29 @@
 	"background": {
 	   "scripts": [ "background.js" ]
 	},
+	"content_scripts": [ {
+		"all_frames": true,
+		"js": [ "content.js" ],
+		"matches": [ "\u003Call_urls>" ],
+		"run_at": "document_start"
+	 } ],
 	"default_locale": "en",
 	"description": "Access Facebook through Opera Sidebar. This is an UNOFFICIAL extensions.",
 	"developer": {
 	   "name": "pmesnil"
 	},
 	"icons": {
-	   "128": "facebook.png",
-	   "16": "facebook.png",
-	   "48": "facebook.png"
+	   "128": "icons/facebook-128.png",
+	   "16": "icons/facebook-16.png",
+	   "48": "icons/facebook-64.png"
 	},
 	"manifest_version": 2,
 	"name": "Facebook Sidebar",
 	"permissions": [ "webRequest", "webRequestBlocking", "\u003Call_urls>" ],
 	"sidebar_action": {
 	   "default_icon": {
-		  "19": "facebook.png",
-		  "38": "facebook.png"
+		  "19": "icons/facebook-16.png",
+		  "38": "icons/facebook-64.png"
 	   },
 	   "default_panel": "panel.html",
 	   "default_title": "Facebook Sidebar"
