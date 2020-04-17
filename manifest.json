@@ -9,9 +9,9 @@
 		"run_at": "document_start"
 	 } ],
 	"default_locale": "en",
-	"description": "Access Facebook through Opera Sidebar. This is an UNOFFICIAL extensions.",
+	"description": "Access Facebook through Opera Sidebar. It's not an offical extension",
 	"developer": {
-	   "name": "pmesnil"
+	   "name": "pierml"
 	},
 	"icons": {
 	   "128": "icons/facebook-128.png",
