@@ -5,10 +5,10 @@
 	},
 	"extName": {
 	   "description": "Extension name.",
-	   "message": "Facebook Sidebar"
+	   "message": "Facebook"
 	},
 	"extPanelURL": {
 	   "description": "Extension URL.",
-	   "message": "https://mobile.facebook.com/"
+	   "message": "https://facebook.com/"
 	}
  }
